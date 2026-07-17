@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1000 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six projects by Chinmoy Das">
+  <style>
+    :root { --ink:#FFFFFF; --paper:#000000; }
+    @media (prefers-color-scheme:dark) { :root { --ink:#FFFFFF; --paper:#000000; } }
+    .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
+    .rule { stroke:var(--ink); stroke-width:1; }
+    .title { fill:var(--ink); font-size:17px; font-weight:700; letter-spacing:.8px; }
+    .copy { fill:var(--ink); font-size:12px; }
+    .meta { fill:var(--ink); font-size:11px; letter-spacing:.4px; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}.r6{animation-delay:.30s}
+    @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
+    :root { --ink:#FFFFFF; --paper:#000000; }
+  </style>
+
+  <g class="mono">
+    <g class="row r1" transform="translate(0 20)">
+      <text class="title" x="48" y="24">01 / BUJIBO.AI</text>
+      <text class="copy" x="48" y="49">AI-powered database chat platform that turns natural language into live answers, charts, and reports.</text>
+      <text class="copy" x="48" y="68">Solo-founded product with secure auth and real-time processing — applied to Y Combinator and Entrepreneur First.</text>
+      <text class="meta" x="48" y="87">REACT · TYPESCRIPT · FASTAPI · PYTHON · AI CHAT · SOLO FOUNDER</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r2" transform="translate(0 130)">
+      <text class="title" x="48" y="24">02 / FOOTPRINTIQ PLATFORM</text>
+      <text class="copy" x="48" y="49">Carbon emission management system with AI-driven dashboards, automated PPTX reporting, and client integrations.</text>
+      <text class="copy" x="48" y="68">Optimized AWS data pipelines and cut monthly infrastructure cost from $6K to $400 while keeping reliability.</text>
+      <text class="meta" x="48" y="87">NEXT.JS · PRISMA · POSTGRESQL · GROQ · LLAMA · LANGCHAIN · AWS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r3" transform="translate(0 240)">
+      <text class="title" x="48" y="24">03 / AI VOICE INTERVIEW</text>
+      <text class="copy" x="48" y="49">AI-powered voice hiring system for automated candidate screening with dynamic Q&amp;A and evaluation.</text>
+      <text class="copy" x="48" y="68">Recruiter dashboard with scores and summaries; Node.js backend for real-time APIs and webhooks.</text>
+      <text class="meta" x="48" y="87">NEXT.JS · NODE.JS · GROQ · LLM VOICE AGENTS · WEBHOOKS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r4" transform="translate(0 350)">
+      <text class="title" x="48" y="24">04 / STOREILY</text>
+      <text class="copy" x="48" y="49">Full-stack web and mobile social/commerce platform built at Worxstax — auth, onboarding, and guest access.</text>
+      <text class="copy" x="48" y="68">Neo4j social graph, real-time notifications via AWS Lambda and Firebase, plus a custom image editor.</text>
+      <text class="meta" x="48" y="87">ANGULAR · IONIC · NEST.JS · MONGODB · NEO4J · FIREBASE · AWS LAMBDA</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r5" transform="translate(0 460)">
+      <text class="title" x="48" y="24">05 / VACCINE CARE</text>
+      <text class="copy" x="48" y="49">IoT temperature monitoring system for vaccine storage with live tabular and graphical dashboards.</text>
+      <text class="copy" x="48" y="68">Automated alert backend using Twilio and Firebase for instant notifications when thresholds breach.</text>
+      <text class="meta" x="48" y="87">IOT · FIREBASE · TWILIO · REAL-TIME DASHBOARD · ALERTS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r6" transform="translate(0 570)">
+      <text class="title" x="48" y="24">06 / REAL-TIME MQTT PIPELINES</text>
+      <text class="copy" x="48" y="49">High-velocity data ingestion and analytics layer for FootprintIQ client integrations and live reporting.</text>
+      <text class="copy" x="48" y="68">Materialized views and MQTT pipelines handling continuous streams for production sustainability dashboards.</text>
+      <text class="meta" x="48" y="87">MQTT · AWS IOT · POSTGRESQL · MATERIALIZED VIEWS · REAL-TIME</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+  </g>
+</svg>
